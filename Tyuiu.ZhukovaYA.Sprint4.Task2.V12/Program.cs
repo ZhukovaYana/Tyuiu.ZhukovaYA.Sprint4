@@ -6,13 +6,12 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task2.V12
         static void Main(string[] args)
         {
             Console.Title = "Спринт #4 | Выполнил: Жукова Яна Андреевна | ИИПБ-24-1";
-            //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Одномерные массивы (генератор случайных чисел)                          *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #12                                                             *");
-            Console.WriteLine("* Выполнил: Жукова Яна Андреевна | ИИПБ-24-1                         *");
+            Console.WriteLine("* Выполнил: Жукова Яна Андреевна | ИИПБ-24-1                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
             

@@ -28,7 +28,7 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task0.V11
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Элемент массива {i}:");
-                array[0] = Convert.ToInt32(Console.ReadLine());
+                array[i] = int.Parse(Console.ReadLine()!);
             }
 
             Console.WriteLine("***************************************************************************");

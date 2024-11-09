@@ -24,11 +24,11 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task0.V11
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int[] array = new int[10];
+
+            int[] array = new int[10] { 8, 9, 5, 4, 3, 2, 1, 0, 5, 7 };
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine($"Элемент массива {i}:");
-                array[i] = int.Parse(Console.ReadLine()!);
+                Console.WriteLine($"Элемент массива {i}: {array[i]}");
             }
 
             Console.WriteLine("***************************************************************************");

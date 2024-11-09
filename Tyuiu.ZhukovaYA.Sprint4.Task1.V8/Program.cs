@@ -6,7 +6,6 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task1.V8
         static void Main(string[] args)
         {
             Console.Title = "Спринт #4 | Выполнил: Жукова Яна Андреевна | ИИПБ-24-1";
-            //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Одномерные массивы (ввод с клавиатуры)                                  *");
@@ -26,7 +25,7 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task1.V8
             Console.WriteLine("***************************************************************************");
 
             int[] array = new int[10];
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 12; i++)
             {
                 Console.WriteLine($"Элемент массива {i}:");
                 array[i] = int.Parse(Console.ReadLine()!);
@@ -42,7 +41,7 @@ namespace Tyuiu.ZhukovaYA.Sprint4.Task1.V8
 
             DataService ds = new DataService();
 
-            Console.WriteLine($"произведение нечетных элементов: {ds.Calculate(array)}");
+            Console.WriteLine($"Сумма нечетных элементов: {ds.Calculate(array)}");
             Console.ReadKey();
         }
     }
